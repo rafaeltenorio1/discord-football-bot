@@ -3,7 +3,7 @@ from datetime import datetime
 
 import discord
 
-from src import config
+import config
 
 COLOR = 0xD9C98B
 

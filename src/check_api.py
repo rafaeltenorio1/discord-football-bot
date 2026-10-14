@@ -5,7 +5,7 @@ from datetime import date
 import aiohttp
 
 import config
-from src.api import ApiError, ApiFootball
+from api import ApiError, ApiFootball
 
 
 async def main():

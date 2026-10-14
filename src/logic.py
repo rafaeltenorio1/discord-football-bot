@@ -1,4 +1,4 @@
-from src import config
+import config
 
 FINISHED = {"FT", "AET", "PEN"}
 DEAD = {"CANC", "ABD", "AWD", "WO"}

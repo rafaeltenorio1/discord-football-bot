@@ -15,7 +15,7 @@ from discord.ext import commands, tasks
 import config
 import embeds
 import merge
-from src.api import FD_STATUS, ApiError, ApiFootball, FootballData, parse_fd_match, parse_fixture
+from api import FD_STATUS, ApiError, ApiFootball, FootballData, parse_fd_match, parse_fixture
 from db import DB
 from logic import DEAD, FINISHED, LIVE, live_interval, score_prediction
 
